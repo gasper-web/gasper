@@ -1,199 +1,100 @@
 <!DOCTYPE HTML>
-<html>
-  <head>
-    <title>Gasper Ink Portfolio</title>
+<html lang="en">
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-  </head>
-  <body class="is-preload">
+    <title>Gasper ink.org.tz.com</title>
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome (for icons) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Noscript fallback for Bootstrap -->
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
     <!-- Wrapper -->
     <div id="wrapper" class="fade-in">
 
-      <!-- Intro -->
-      <div id="intro">
-        <h1>Gasper Portfolio</h1>
-        <p>GASPER THE ANALYZER (20gasperjoseph@gmail.com)</p>
-        <ul class="actions">
-          <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-        </ul>
-      </div>
-
-      <!-- Header -->
-      <header id="header">
-        <a href="index.html" class="logo">Gasper Portfolio</a>
-        <a href="https://github.com/gasper-web/gasper-ink.git" class="image main"><img src="images/pic1 (6).jpg (1).jpg" alt="" /></a>
-      </header>
-
-      <!-- Nav -->
-      <nav id="nav">
-        <ul class="links">
-          <li class="active"><a href="index.html">This is a Genuine Project</a></li>
-        </ul>
-        <ul class="icons">
-          <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-          <li><a href="https://github.com/gasper-web/gasper-ink.git" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-        </ul>
-      </nav>
-
-      <!-- Main -->
-      <div id="main">
-
-        <!-- User Registration Form -->
-        <section class="registration-form">
-          <h2>Register</h2>
-          <form id="registration-form">
-            <div class="field">
-              <label for="full-name">Full Name</label>
-              <input type="text" id="full-name" name="full-name" required />
-            </div>
-            <div class="field">
-              <label for="registration-number">Registration Number</label>
-              <input type="text" id="registration-number" name="registration-number" required pattern="BCS-\d{2}-\d{4}-\d{4}" title="Format: BCS-00-0000-0000" />
-            </div>
-            <div class="field">
-              <label for="sex">Sex</label>
-              <select id="sex" name="sex" required>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-            <div class="field">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div class="field">
-              <label for="region">Region</label>
-              <select id="region" name="region" required>
-                <option value="">Select Region</option>
-                <option value="region1">Region 1</option>
-                <option value="region2">Region 2</option>
-              </select>
-            </div>
-            <div class="field">
-              <label for="district">District</label>
-              <select id="district" name="district" required>
-                <option value="">Select District</option>
-              </select>
-            </div>
-            <div class="field">
-              <label for="password">Password</label>
-              <input type="password" id="password" name="password" required minlength="8" />
-            </div>
-            <div class="field">
-              <label for="confirm-password">Confirm Password</label>
-              <input type="password" id="confirm-password" name="confirm-password" required />
-            </div>
-            <button type="submit">Register</button>
-          </form>
+        <!-- Intro Section -->
+        <section id="intro" class="text-center py-5">
+            <h1>Gasper Portfolio</h1>
+            <p>GASPER THE ANALYZER (20gasperjoseph@gmail.com)</p>
+            <a href="#header" class="btn btn-primary btn-lg">Continue <i class="fas fa-arrow-down"></i></a>
         </section>
 
-        <!-- Carousel -->
-        <section class="carousel">
-          <div class="slider">
-            <div class="slide"><img src="images/pic1.jpg" alt="Slide 1" /></div>
-            <div class="slide"><img src="images/pic2.jpg" alt="Slide 2" /></div>
-            <div class="slide"><img src="images/pic3.jpg" alt="Slide 3" /></div>
-          </div>
-        </section>
-      </div>
-
-      <!-- Footer -->
-      <footer id="footer">
-        <section>
-          <form method="post" action="#">
-            <div class="fields">
-              <div class="field">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
-              </div>
-              <div class="field">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
-              </div>
-              <div class="field">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="3"></textarea>
-              </div>
+        <!-- Header -->
+        <header id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Gasper Portfolio</a>
+                <a href="https://github.com/gasper-web/gasper-ink.git" class="navbar-brand">
+                    <img src="images/pic1 (6).jpg" alt="Gasper Ink" class="img-fluid" width="50">
+                </a>
             </div>
-            <ul class="actions">
-              <li><input type="submit" value="Send Message" /></li>
-            </ul>
-          </form>
-        </section>
-        <section class="split contact">
-          <section class="alt">
-            <h3>Address</h3>
-            <p>14910 Arusha Tanzania <br /> Sombetini, TN 2132-1029</p>
-          </section>
-          <section>
-            <h3>Phone</h3>
-            <p><a href="#">(+255) 0764-106-895</a></p>
-          </section>
-          <section>
-            <h3>Email</h3>
-            <p><a href="#">20gasperjoseph@gmail.com</a></p>
-          </section>
-          <section>
-            <h3>Social</h3>
-            <ul class="icons alt">
-              <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-              <li><a href="https://github.com/gasper-web/gasper-ink" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-            </ul>
-          </section>
-        </section>
-      </footer>
+        </header>
 
-      <!-- Copyright -->
-      <div id="copyright"></div>
+        <!-- Navigation -->
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">This is Genuine Project</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="fab fa-instagram"></i> Instagram</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/gasper-web/gasper-ink" class="nav-link"><i class="fab fa-github"></i> GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    </div>
+        <!-- Main Content -->
+        <main id="main" class="container py-5">
+            <!-- Featured Post -->
+            <article class="post featured mb-4">
+                <header class="text-center mb-3">
+                    <span class="badge bg-primary text-white">2024</span>
+                    <h2><a href="https://github.com/gasper-web/gasper-ink/issues/8#issue-2726461758">We Always Work The Best In Every Aspect</a></h2>
+                    <p>Fine and reliable services all over</p>
+                </header>
+                <a href="https://github.com/gasper-web/gasper-ink/issues/8#issue-2726461758" class="d-block">
+                    <img src="images/pic1 (1).jpg" alt="Featured" class="img-fluid">
+                </a>
+                <div class="text-center">
+                    <a href="https://github.com/gasper-web/gasper-ink/issues/8#issue-2726461758" class="btn btn-secondary">For More Details</a>
+                </div>
+            </article>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-
-    <!-- Additional Scripts for Form Validation, Ajax, and Carousel -->
-    <script>
-      // Form validation
-      $('#registration-form').on('submit', function (e) {
-        e.preventDefault();
-        var password = $('#password').val();
-        var confirmPassword = $('#confirm-password').val();
-        if (password !== confirmPassword) {
-          alert('Passwords do not match!');
-          return;
-        }
-        alert('Form submitted successfully!');
-      });
-
-      // Ajax for Region and Districts
-      $('#region').change(function () {
-        var region = $(this).val();
-        var districts = region === 'region1' ? ['District 1', 'District 2'] : ['District 3', 'District 4'];
-        $('#district').empty().append('<option value="">Select District</option>');
-        districts.forEach(function (district) {
-          $('#district').append('<option value="' + district.toLowerCase().replace(' ', '-') + '">' + district + '</option>');
-        });
-      });
-
-      // Carousel
-      var currentIndex = 0;
-      var slides = $('.slider .slide');
-      setInterval(function () {
-        slides.eq(currentIndex).fadeOut();
-        currentIndex = (currentIndex + 1) % slides.length;
-        slides.eq(currentIndex).fadeIn();
-      }, 3000);
-    </script>
-
-  </body>
-</html>
+            <!-- User Registration Form -->
+            <div class="registration-form bg-dark text-white p-4 rounded">
+                <h2 class="text-center mb-4">User Registration</h2>
+                <form id="registrationForm">
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="regNumber" class="form-label">Registration Number</label>
+                        <input type="text" class="form-control" id="regNumber" placeholder="BCS-00-0000-0000" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="sex" class="form-label">Sex</label>
+                        <select class="form-select" id="sex" required>
+                            <option value="" disabled selected>Select your gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</lab
